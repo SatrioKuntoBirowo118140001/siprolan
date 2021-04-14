@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title><?= $title; ?> | Aplikasi Pengadaan Barang</title>
+    <title><?= $title; ?> | Sistem Pembukuan Produk dan Report Penjualan</title>
 
     <!-- Custom fonts for this template-->
     <link href="<?= base_url(); ?>assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -46,7 +46,7 @@
                 <div class="sidebar-brand-icon">
                     <i class="fas fa-university"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">Pengadaan Barang</div>
+                <div class="sidebar-brand-text mx-3">Pembukuan Produk dan Report</div>
             </a>
 
             <!-- Nav Item - Dashboard -->
