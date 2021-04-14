@@ -7,7 +7,7 @@
             <div class="card-body p-lg-5 p-0">
                 <div class="p-4">
                     <div class="text-center mb-4">
-                        <h1 class="h4 text-gray-900">Sistem Pembukuan Produk dan Report Penjualan Berbasis Website</h1>
+                        <h1 class="h4 text-gray-900">Sistem Pembukuan Produk dan Report Penjualan</h1>
                         <span class="text-muted">Buat Akun</span>
                     </div>
                     <?= $this->session->flashdata('pesan'); ?>
