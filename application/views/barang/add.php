@@ -38,11 +38,39 @@
                     </div>
                 </div>
                 <div class="row form-group">
-                    <label class="col-md-3 text-md-right" for="jenis_id">Jenis Barang</label>
+                    <label class="col-md-3 text-md-right" for="rusak">Rusak</label>
+                    <div class="col-md-9">
+                        <input value="<?= set_value('rusak'); ?>" name="rusak" id="rusak" type="text" class="form-control" placeholder="Rusak...">
+                        <?= form_error('rusak', '<small class="text-danger">', '</small>'); ?>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label class="col-md-3 text-md-right" for="sedang">Sedang</label>
+                    <div class="col-md-9">
+                        <input value="<?= set_value('sedang'); ?>" name="sedang" id="sedang" type="text" class="form-control" placeholder="Sedang...">
+                        <?= form_error('sedang', '<small class="text-danger">', '</small>'); ?>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label class="col-md-3 text-md-right" for="bagus">Bagus</label>
+                    <div class="col-md-9">
+                        <input value="<?= set_value('bagus'); ?>" name="bagus" id="bagus" type="text" class="form-control" placeholder="Bagus...">
+                        <?= form_error('bagus', '<small class="text-danger">', '</small>'); ?>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label class="col-md-3 text-md-right" for="paket_usaha">Paket Usaha</label>
+                    <div class="col-md-9">
+                        <input value="<?= set_value('paket_usaha'); ?>" name="paket_usaha" id="paket_usaha" type="text" class="form-control" placeholder="Paket Usaha...">
+                        <?= form_error('paket_usaha', '<small class="text-danger">', '</small>'); ?>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label class="col-md-3 text-md-right" for="jenis_id">Supplier</label>
                     <div class="col-md-9">
                         <div class="input-group">
                             <select name="jenis_id" id="jenis_id" class="custom-select">
-                                <option value="" selected disabled>Pilih Jenis Barang</option>
+                                <option value="" selected disabled>Pilih Nama Supplier</option>
                                 <?php foreach ($jenis as $j) : ?>
                                     <option <?= set_select('jenis_id', $j['id_jenis']) ?> value="<?= $j['id_jenis'] ?>"><?= $j['nama_jenis'] ?></option>
                                 <?php endforeach; ?>

@@ -13,7 +13,7 @@
                         <i class="fa fa-plus"></i>
                     </span>
                     <span class="text">
-                        Tambah Jenis Barang
+                        Tambah Supplier
                     </span>
                 </a>
             </div>
@@ -24,7 +24,7 @@
             <thead>
                 <tr>
                     <th>No. </th>
-                    <th>Nama Jenis</th>
+                    <th>Nama Supplier</th>
                     <th>Aksi</th>
                 </tr>
             </thead>
