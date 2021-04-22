@@ -29,7 +29,7 @@
                     <th>Supplier</th>
                     <th>Nama Barang</th>
                     <th>Jumlah Masuk</th>
-                    <th>User</th>
+                   
                     <th>Hapus</th>
                 </tr>
             </thead>

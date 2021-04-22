@@ -44,7 +44,7 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex text-white align-items-center bg-primary justify-content-center" href="">
                 <div class="sidebar-brand-icon">
-                    <i class="fas fa-university"></i>
+               
                 </div>
                 <div class="sidebar-brand-text mx-3">Pembukuan Produk dan Report</div>
             </a>
@@ -83,7 +83,7 @@
                     <div class="bg-light py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Master Barang:</h6>
                         <a class="collapse-item" href="<?= base_url('satuan'); ?>">Satuan Barang</a>
-                        <a class="collapse-item" href="<?= base_url('jenis'); ?>">Jenis Barang</a>
+                        <a class="collapse-item" href="<?= base_url('jenis'); ?>">Nama Supplier</a>
                         <a class="collapse-item" href="<?= base_url('barang'); ?>">Data Barang</a>
                     </div>
                 </div>

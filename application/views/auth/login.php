@@ -12,7 +12,7 @@
                         <div class="p-5">
                             <div class="text-center mb-4">
                                 <h1 class="h4 text-gray-900">Sistem Pembukuan Produk dan Report Penjualan</h1>
-                                <span class="text-muted">Login</span>
+                                <span class="text-muted">LOGIN</span>
                             </div>
                             <?= $this->session->flashdata('pesan'); ?>
                             <?= form_open('', ['class' => 'user']); ?>
