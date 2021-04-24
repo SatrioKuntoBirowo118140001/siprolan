@@ -28,7 +28,6 @@
                     <th>Tanggal Keluar</th>
                     <th>Nama Barang</th>
                     <th>Jumlah Keluar</th>
-                    <th>User</th>
                     <th>Hapus</th>
                 </tr>
             </thead>
@@ -44,7 +43,6 @@
                             <td><?= $bk['tanggal_keluar']; ?></td>
                             <td><?= $bk['nama_barang']; ?></td>
                             <td><?= $bk['jumlah_keluar'] . ' ' . $bk['nama_satuan']; ?></td>
-                            <td><?= $bk['nama']; ?></td>
                             <td>
                                 <a onclick="return confirm('Yakin ingin hapus?')" href="<?= base_url('barangkeluar/delete/') . $bk['id_barang_keluar'] ?>" class="btn btn-danger btn-circle btn-sm"><i class="fa fa-trash"></i></a>
                             </td>

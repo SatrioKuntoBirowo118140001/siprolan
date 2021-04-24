@@ -29,7 +29,6 @@
                     <th>Supplier</th>
                     <th>Nama Barang</th>
                     <th>Jumlah Masuk</th>
-                   
                     <th>Hapus</th>
                 </tr>
             </thead>
@@ -46,7 +45,6 @@
                             <td><?= $bm['nama_supplier']; ?></td>
                             <td><?= $bm['nama_barang']; ?></td>
                             <td><?= $bm['jumlah_masuk'] . ' ' . $bm['nama_satuan']; ?></td>
-                            <td><?= $bm['nama']; ?></td>
                             <td>
                                 <a onclick="return confirm('Yakin ingin hapus?')" href="<?= base_url('barangmasuk/delete/') . $bm['id_barang_masuk'] ?>" class="btn btn-danger btn-circle btn-sm"><i class="fa fa-trash"></i></a>
                             </td>

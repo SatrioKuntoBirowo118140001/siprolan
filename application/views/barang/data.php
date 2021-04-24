@@ -26,11 +26,8 @@
                     <th>No. </th>
                     <th>ID Barang</th>
                     <th>Nama Barang</th>
-                    <th>Supplier</th>
-                    <th>Rusak</th>
-                    <th>Sedang</th>
-                    <th>Bagus</th>
-                    <th>Paket Usaha</th>
+                    <th>Jenis Barang</th>
+                    <th>Stok</th>
                     <th>Satuan</th>
                     <th>Aksi</th>
                 </tr>
@@ -46,10 +43,7 @@
                             <td><?= $b['id_barang']; ?></td>
                             <td><?= $b['nama_barang']; ?></td>
                             <td><?= $b['nama_jenis']; ?></td>
-                            <td><?= $b['rusak']; ?></td>
-                            <td><?= $b['sedang']; ?></td>
-                            <td><?= $b['bagus']; ?></td>
-                            <td><?= $b['paket_usaha']; ?></td>
+                            <td><?= $b['stok']; ?></td>
                             <td><?= $b['nama_satuan']; ?></td>
                             <td>
                                 <a href="<?= base_url('barang/edit/') . $b['id_barang'] ?>" class="btn btn-warning btn-circle btn-sm"><i class="fa fa-edit"></i></a>
