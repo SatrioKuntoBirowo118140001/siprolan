@@ -517,8 +517,8 @@
                     labels: ["Barang Masuk", "Barang Keluar"],
                     datasets: [{
                         data: [<?= $barang_masuk; ?>, <?= $barang_keluar; ?>],
-                        backgroundColor: ['#4e73df', '#e74a3b'],
-                        hoverBackgroundColor: ['#5a5c69', '#5a5c69'],
+                        backgroundColor: ['#ff3bae', '#d431f5'],
+                        hoverBackgroundColor: ['#4e73df', '#e74a3b'],
                         hoverBorderColor: "rgba(234, 236, 244, 1)",
                     }],
                 },
