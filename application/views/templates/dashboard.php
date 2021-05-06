@@ -113,21 +113,6 @@
                 </a>
             </li>
 
-            <!-- Divider -->
-            <hr class="sidebar-divider">
-
-            <!-- Heading -->
-            <div class="sidebar-heading">
-                Report
-            </div>
-
-            <li class="nav-item">
-                <a class="nav-link" href="<?= base_url('laporan'); ?>">
-                    <i class="fas fa-fw fa-print"></i>
-                    <span>Cetak Laporan</span>
-                </a>
-            </li>
-
             <?php if (is_admin()) : ?>
                 <!-- Divider -->
                 <hr class="sidebar-divider">
